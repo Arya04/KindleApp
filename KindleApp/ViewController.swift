@@ -21,7 +21,7 @@ class ViewController: UITableViewController {
         
         tableView.register(BookCell.self, forCellReuseIdentifier: "cellId")
         tableView.tableFooterView = UIView()
-        tableView.backgroundColor = UIColor.lightGray
+        tableView.backgroundColor = UIColor(white: 1, alpha: 0.3)
         
         navigationItem.title = "Kindle"
         

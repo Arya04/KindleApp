@@ -43,12 +43,15 @@ class BookCell: UITableViewCell {
     
     private let titleLabel: UILabel = {
         let label = UILabel()
+        label.textColor = .white
+        label.font = UIFont.boldSystemFont(ofSize: 16)
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     private let authorLabel: UILabel = {
         let authorLabel = UILabel()
+        authorLabel.textColor = .lightGray
         authorLabel.translatesAutoresizingMaskIntoConstraints = false
         return authorLabel
     }()
