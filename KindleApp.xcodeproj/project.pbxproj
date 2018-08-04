@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		C40ECEA8211154EC007ACAF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEA7211154EC007ACAF3 /* AppDelegate.swift */; };
 		C40ECEAA211154ED007ACAF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEA9211154ED007ACAF3 /* ViewController.swift */; };
-		C40ECEAD211154ED007ACAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40ECEAB211154ED007ACAF3 /* Main.storyboard */; };
 		C40ECEAF211154EE007ACAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40ECEAE211154EE007ACAF3 /* Assets.xcassets */; };
 		C40ECEB2211154EE007ACAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40ECEB0211154EE007ACAF3 /* LaunchScreen.storyboard */; };
+		C40ECEBA211168A4007ACAF3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEB9211168A4007ACAF3 /* Models.swift */; };
+		C40ECEBC21152C16007ACAF3 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEBB21152C16007ACAF3 /* BookCell.swift */; };
+		C40ECEC021154317007ACAF3 /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEBF21154317007ACAF3 /* BookPagerController.swift */; };
+		C40ECEC2211549B5007ACAF3 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40ECEC1211549B5007ACAF3 /* PageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C40ECEA4211154EC007ACAF3 /* KindleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40ECEA7211154EC007ACAF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C40ECEA9211154ED007ACAF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C40ECEAC211154ED007ACAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C40ECEAE211154EE007ACAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C40ECEB1211154EE007ACAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C40ECEB3211154EE007ACAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40ECEB9211168A4007ACAF3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C40ECEBB21152C16007ACAF3 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		C40ECEBF21154317007ACAF3 /* BookPagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
+		C40ECEC1211549B5007ACAF3 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				C40ECEA7211154EC007ACAF3 /* AppDelegate.swift */,
 				C40ECEA9211154ED007ACAF3 /* ViewController.swift */,
-				C40ECEAB211154ED007ACAF3 /* Main.storyboard */,
 				C40ECEAE211154EE007ACAF3 /* Assets.xcassets */,
 				C40ECEB0211154EE007ACAF3 /* LaunchScreen.storyboard */,
 				C40ECEB3211154EE007ACAF3 /* Info.plist */,
+				C40ECEB9211168A4007ACAF3 /* Models.swift */,
+				C40ECEBB21152C16007ACAF3 /* BookCell.swift */,
+				C40ECEBF21154317007ACAF3 /* BookPagerController.swift */,
+				C40ECEC1211549B5007ACAF3 /* PageCell.swift */,
 			);
 			path = KindleApp;
 			sourceTree = "<group>";
@@ -124,7 +133,6 @@
 			files = (
 				C40ECEB2211154EE007ACAF3 /* LaunchScreen.storyboard in Resources */,
 				C40ECEAF211154EE007ACAF3 /* Assets.xcassets in Resources */,
-				C40ECEAD211154ED007ACAF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40ECEBC21152C16007ACAF3 /* BookCell.swift in Sources */,
+				C40ECEC021154317007ACAF3 /* BookPagerController.swift in Sources */,
+				C40ECEC2211549B5007ACAF3 /* PageCell.swift in Sources */,
+				C40ECEBA211168A4007ACAF3 /* Models.swift in Sources */,
 				C40ECEAA211154ED007ACAF3 /* ViewController.swift in Sources */,
 				C40ECEA8211154EC007ACAF3 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +155,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C40ECEAB211154ED007ACAF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C40ECEAC211154ED007ACAF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C40ECEB0211154EE007ACAF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
